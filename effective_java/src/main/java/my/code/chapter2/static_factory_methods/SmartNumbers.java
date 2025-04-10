@@ -25,12 +25,9 @@ public class SmartNumbers {
      * @return SmartNumbers, якщо число > 0, інакше – виняток
      */
     public static SmartNumbers fromPositive(int value) {
-        // TODO: ❗ Тут потрібно реалізувати перевірку на додатність
-//        throw new UnsupportedOperationException("Not implemented yet");
-        if (value <= 0) {
-            throw new IllegalArgumentException("Число має бути додатним!");
-        }
-        return CACHE.computeIfAbsent(value, SmartNumbers::new);
+//         TODO: ❗ Тут потрібно реалізувати перевірку на додатність
+        throw new UnsupportedOperationException("Not implemented yet");
+
     }
 
     /**
